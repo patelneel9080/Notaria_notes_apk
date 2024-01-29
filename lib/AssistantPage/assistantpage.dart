@@ -66,6 +66,7 @@ class _AssistantPageState extends State<AssistantPage> {
                       ),
                     ),
                   ),
+
                   InkWell(
                     onTap: () {
                       Navigator.push(context, MaterialPageRoute(builder: (context) => SecondPage(),));
